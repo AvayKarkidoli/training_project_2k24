@@ -1,3 +1,4 @@
+/*
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setPosts } from "state";
@@ -30,23 +31,16 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   };
 
   useEffect(() => {
-    const fetchData = async () => {
-      if (isProfile) {
-        await getUserPosts();
-      } else {
-        await getPosts();
-      }
-    };
-
-    fetchData();
-  }, [isProfile, userId, token]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  // Sort posts by most recent first
-  const sortedPosts = [...posts].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+    if (isProfile) {
+      getUserPosts();
+    } else {
+      getPosts();
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <>
-      {sortedPosts.map(
+      {posts.map(
         ({
           _id,
           userId,
@@ -78,3 +72,5 @@ const PostsWidget = ({ userId, isProfile = false }) => {
 };
 
 export default PostsWidget;
+*/
+//to change it from descending to ascending
