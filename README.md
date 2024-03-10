@@ -73,3 +73,4 @@ Users can create posts, view other users' posts, interact and can also follow/un
 <p align="center">
   <h3>Thank you for reading ❤️</h3>
 </p>
+<hr>
