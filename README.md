@@ -9,3 +9,26 @@ Users can create posts, view other users' posts, interact and can also follow/un
 <p align="center">
   <img src="client/public/assets/Screenshots/homepage light.png" title="Home Page">
 </p>
+<hr>
+<ul style="list-style-type:circle">
+  <li><h3>Frontend</h3>
+      <ul style="list-style-type:disc">
+        <li>React (for creating user interface)</li>
+        <li>React Router (for navigation)</li>
+        <li>formik + yup (for form validation)</li>
+        <li>Redux Toolkit (for state management)</li>
+        <li>Redux Persist (for local storage)</li>
+        <li>React Dropzone (for image uploads)</li>
+      </ul>
+  </li>
+  <li><h3>Backend</h3>
+      <ul style="list-style-type:disc">
+        <li>Node.js (as runtime)</li>
+        <li>Express.js (backend framework)</li>
+        <li>Mongoose (for managing mongo database)</li>
+        <li>JWT (JSON Web Tokens) (for authentication)</li>
+        <li>Multer (for file upload)</li>
+        <li>MongoDB Atlas (for cloud database storage)</li>
+      </ul>
+  </li>
+  </ul>
