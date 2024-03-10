@@ -33,7 +33,7 @@ Users can create posts, view other users' posts, interact and can also follow/un
       </ul>
   </li>
   </ul>
-  <h2>Features</h2>
+  <h2>⭐ Features</h2>
   <ul style="list-style-type:circle">
   <li><h3>User Authentication:</h3>
       <ul style="list-style-type:disc">
