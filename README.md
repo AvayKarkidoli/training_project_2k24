@@ -61,3 +61,15 @@ Users can create posts, view other users' posts, interact and can also follow/un
       </ul>
   </li>
   </ul>
+  <hr>
+<p align="center">
+  <img src="client/public/assets/Screenshots/logout.png" >
+</p>
+<hr>
+<p align="center">
+  <img src="client/public/assets/Screenshots/mobile friendly.png" >
+</p>
+<hr>
+<p align="center">
+  <h3>Thank you for reading ❤️</h3>
+</p>
