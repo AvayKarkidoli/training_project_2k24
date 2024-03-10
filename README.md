@@ -10,6 +10,7 @@ Users can create posts, view other users' posts, interact and can also follow/un
   <img src="client/public/assets/Screenshots/homepage light.png" title="Home Page">
 </p>
 <hr>
+<h2>💻 Tech Stack</h2>
 <ul style="list-style-type:circle">
   <li><h3>Frontend</h3>
       <ul style="list-style-type:disc">
@@ -29,6 +30,34 @@ Users can create posts, view other users' posts, interact and can also follow/un
         <li>JWT (JSON Web Tokens) (for authentication)</li>
         <li>Multer (for file upload)</li>
         <li>MongoDB Atlas (for cloud database storage)</li>
+      </ul>
+  </li>
+  </ul>
+  <h2>Features</h2>
+  <ul style="list-style-type:circle">
+  <li><h3>User Authentication:</h3>
+      <ul style="list-style-type:disc">
+        <li>Signup with username, email and password</li>
+        <li>Login with username or email and password</li>
+        <li>formik + yup (for form validation)</li>
+        <li>Logout</li>
+      </ul>
+  </li>
+  <li><h3>Post interactions:</h3>
+      <ul style="list-style-type:disc">
+        <li>Create new posts</li>
+        <li>Upload Photos</li>
+        <li>Like posts</li>
+        <li>Follow/unfollow other users</li>
+        <li>View post likes and comments</li>
+      </ul>
+  </li>
+    <li><h3>Accessibility:</h3>
+      <ul style="list-style-type:disc">
+        <li>Dark mode</li>
+        <li>Light mode</li>
+        <li>Mobile-friendly layout</li>
+        <li>Responsive layout</li>
       </ul>
   </li>
   </ul>
